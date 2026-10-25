@@ -1,0 +1,37 @@
+% !TeX root = ../main.tex
+\clearpage
+\section{模型建立与求解}
+\subsection{数据预处理}
+在此描述缺失值、异常值、量纲差异及数据划分的处理过程。引用期刊论文的示例见\cite{samplearticle}。以下公式和图表均为排版演示，请替换为真实模型与计算结果。
+
+\subsection{模型建立}
+以带有正则项的最小二乘目标函数演示公式排版：
+\begin{equation}
+  \min_{\boldsymbol\beta}\;\mathcal{L}(\boldsymbol\beta)
+  =\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\boldsymbol x_i^{\mathsf T}\boldsymbol\beta\right)^2
+  +\lambda\lVert\boldsymbol\beta\rVert_2^2.
+  \label{eq:objective}
+\end{equation}
+式~\eqref{eq:objective} 中，第一项度量拟合误差，第二项用于约束参数规模。正式论文需要解释模型为何适合当前数据，并说明参数的选取依据。
+
+\subsection{求解与结果展示}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=.72\textwidth]{model-workflow.pdf}
+  \caption{模型工作流程示意（占位图）}\label{fig:workflow}
+\end{figure}
+图~\ref{fig:workflow} 使用项目内的 PDF 图片文件；实际写作中可替换为实验流程或结果图。图片、代码和文献文件均应与主文件一并保存。
+
+\begin{table}[htbp]
+  \centering
+  \caption{模型结果展示格式（占位数据）}\label{tab:results}
+  \begin{tabular}{lrr}
+    \toprule
+    方法 & 指标一 & 指标二\\
+    \midrule
+    方法甲 & 0.812 & 0.143\\
+    方法乙 & 0.836 & 0.127\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+表~\ref{tab:results} 的数字仅用于展示小数对齐与表格样式，不代表真实实验结果。

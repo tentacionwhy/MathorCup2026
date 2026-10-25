@@ -1,0 +1,29 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+\documentclass{mathorcup-elegant}
+
+% 只填写队伍编号和赛道；不要填写姓名、学校或指导教师。
+\bianhao{待填写队伍编号}
+\tihao{A/B（请选择一项）}
+\timu{论文题目（请替换）}
+\keyword{关键词一；关键词二；关键词三}
+\addbibresource{references.bib}
+
+\begin{document}
+\begin{abstract}
+本文档是 MathorCup 2026 大数据竞赛论文的排版示例，正文文字、数据和参考文献均为占位内容，不构成参赛研究结果。正式写作时，请将本段替换为针对所选赛道的摘要，依次说明研究问题、建模方法、主要结果与结论。
+
+针对问题一，概述数据处理方法、模型及其主要定量结果。针对问题二，说明进一步采用的方法和检验结果。对于其他问题，继续概括对应的模型与结论，保持摘要能够独立阅读。
+
+请以实际计算得到的结果替换占位内容，避免在摘要中保留模板说明。题目、摘要与关键词须控制在第一页内；第二页固定为目录，正文从下一页开始编号。
+\end{abstract}
+
+\makecontestcontents
+\input{sections/01-problem}
+\input{sections/02-analysis}
+\input{sections/03-model}
+\input{sections/04-validation}
+\printcontestbibliography
+\contestappendix
+\input{sections/05-appendix}
+\end{document}

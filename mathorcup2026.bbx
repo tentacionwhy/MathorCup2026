@@ -1,0 +1,32 @@
+\ProvidesFile{mathorcup2026.bbx}[2026/10/25 MathorCup bibliography]
+\RequireBibliographyStyle{numeric}
+\ExecuteBibliographyOptions{sorting=none}
+\DeclareFieldFormat[article,book,inbook,incollection,online,report,thesis,misc]{title}{#1}
+\DeclareFieldFormat{journaltitle}{#1}
+\DeclareFieldFormat{pages}{#1}
+\DeclareFieldFormat{url}{\url{#1}}
+\DeclareDelimFormat{multinamedelim}{\addcomma\space}
+\DeclareDelimFormat{finalnamedelim}{\addcomma\space}
+\newbibmacro*{contest:author}{\ifnameundef{author}{\printlist{organization}}{\printnames{author}}}
+\newbibmacro*{contest:accessdate}{%
+  \iffieldundef{urlyear}{}{\printtext{访问日期：}\printfield{urlyear}\printtext{年}\printfield{urlmonth}\printtext{月}\printfield{urlday}\printtext{日}}}
+\DeclareBibliographyDriver{book}{%
+  \usebibmacro{bibindex}\usebibmacro{begentry}
+  \usebibmacro{contest:author}\setunit{\addcomma\space}\printfield{title}
+  \setunit{\addcomma\space}\printlist{location}\setunit{\addcolon\space}\printlist{publisher}
+  \setunit{\addcomma\space}\printfield{year}\usebibmacro{finentry}}
+\DeclareBibliographyDriver{article}{%
+  \usebibmacro{bibindex}\usebibmacro{begentry}
+  \usebibmacro{contest:author}\setunit{\addcomma\space}\printfield{title}
+  \setunit{\addcomma\space}\printfield{journaltitle}
+  \setunit{\addcomma\space}\printfield{volume}
+  \iffieldundef{number}{}{\printtext[parens]{\printfield{number}}}
+  \setunit{\addcolon\space}\printfield{pages}
+  \setunit{\addcomma\space}\printfield{year}\usebibmacro{finentry}}
+\DeclareBibliographyDriver{online}{%
+  \usebibmacro{bibindex}\usebibmacro{begentry}
+  \usebibmacro{contest:author}\setunit{\addcomma\space}\printfield{title}
+  \setunit{\addcomma\space}\printfield{url}
+  \setunit{\addcomma\space}\usebibmacro{contest:accessdate}\usebibmacro{finentry}}
+\DeclareBibliographyAlias{misc}{online}
+\endinput
