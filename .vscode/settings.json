@@ -3,6 +3,7 @@
   "git.autofetch": false,
   "git.confirmSync": true,
   "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.build.enableMagicComments": false,
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.latex.outDir": "%DIR%/build",
   "latex-workshop.latex.tools": [

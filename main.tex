@@ -1,29 +1,42 @@
-% !TeX program = xelatex
+% !LW recipe = XeLaTeX
 % !TeX encoding = UTF-8
 \documentclass{mathorcup-elegant}
 
 % 只填写队伍编号和赛道；不要填写姓名、学校或指导教师。
-\bianhao{待填写队伍编号}
-\tihao{A/B（请选择一项）}
+\bianhao{MCB2600006}
+\tihao{B}
 \timu{论文题目（请替换）}
-\keyword{关键词一；关键词二；关键词三}
+\keyword{冰岩崩；泥石流；多源数据融合；触发临界条件；时空预警；过程模拟}
 \addbibresource{references.bib}
+% 第二页须为单页目录；正文保留全部二级标题，目录仅显示一级标题。
+\setcounter{tocdepth}{1}
+% 空白写作位置让尚无正文的小节正常分页；填写正文后删除对应的 \writingplaceholder。
+\newcommand{\writingplaceholder}{\noindent\mbox{}\par}
+% 空文献库阶段只输出标题；有实际引用或文献数据后自动输出列表。
+\newif\ifhasreferences
+\AtDataInput{\global\hasreferencestrue}
+\AtEveryCitekey{\global\hasreferencestrue}
 
 \begin{document}
 \begin{abstract}
-本文档是 MathorCup 2026 大数据竞赛论文的排版示例，正文文字、数据和参考文献均为占位内容，不构成参赛研究结果。正式写作时，请将本段替换为针对所选赛道的摘要，依次说明研究问题、建模方法、主要结果与结论。
-
-针对问题一，概述数据处理方法、模型及其主要定量结果。针对问题二，说明进一步采用的方法和检验结果。对于其他问题，继续概括对应的模型与结论，保持摘要能够独立阅读。
-
-请以实际计算得到的结果替换占位内容，避免在摘要中保留模板说明。题目、摘要与关键词须控制在第一页内；第二页固定为目录，正文从下一页开始编号。
+% 待撰写：研究背景与目的、四问采用的方法、主要定量结果及结论。
+% 仅填写已获得证据支持的内容，题目、摘要与关键词合计控制在第一页。
 \end{abstract}
 
 \makecontestcontents
-\input{sections/01-problem}
-\input{sections/02-analysis}
-\input{sections/03-model}
-\input{sections/04-validation}
-\printcontestbibliography
+\input{sections/01-introduction}
+\input{sections/02-data}
+\input{sections/03-factors}
+\input{sections/04-thresholds}
+\input{sections/05-warning}
+\input{sections/06-simulation}
+\input{sections/07-evaluation}
+\input{sections/08-conclusion}
+% 即使目前还没有正文引用，也保留参考文献标题和目录入口。
+\printbibheading[heading=bibintoc,title={参考文献}]
+\ifhasreferences
+  \printbibliography[heading=none]
+\fi
 \contestappendix
-\input{sections/05-appendix}
+\input{sections/09-appendix}
 \end{document}
