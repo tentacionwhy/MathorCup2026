@@ -1,0 +1,42 @@
+% !LW recipe = XeLaTeX
+% !TeX encoding = UTF-8
+\documentclass{mathorcup-elegant}
+
+% 只填写队伍编号和赛道；不要填写姓名、学校或指导教师。
+\bianhao{MCB2600006}
+\tihao{B}
+\timu{论文题目（请替换）}
+\keyword{冰岩崩；泥石流；多源数据融合；触发临界条件；时空预警；过程模拟}
+\addbibresource{references.bib}
+% 第二页须为单页目录；正文保留全部二级标题，目录仅显示一级标题。
+\setcounter{tocdepth}{1}
+% 空白写作位置让尚无正文的小节正常分页；填写正文后删除对应的 \writingplaceholder。
+\newcommand{\writingplaceholder}{\noindent\mbox{}\par}
+% 空文献库阶段只输出标题；有实际引用或文献数据后自动输出列表。
+\newif\ifhasreferences
+\AtDataInput{\global\hasreferencestrue}
+\AtEveryCitekey{\global\hasreferencestrue}
+
+\begin{document}
+\begin{abstract}
+% 待撰写：研究背景与目的、四问采用的方法、主要定量结果及结论。
+% 仅填写已获得证据支持的内容，题目、摘要与关键词合计控制在第一页。
+\end{abstract}
+
+\makecontestcontents
+\input{sections/01-introduction}
+\input{sections/02-data}
+\input{sections/03-factors}
+\input{sections/04-thresholds}
+\input{sections/05-warning}
+\input{sections/06-simulation}
+\input{sections/07-evaluation}
+\input{sections/08-conclusion}
+% 即使目前还没有正文引用，也保留参考文献标题和目录入口。
+\printbibheading[heading=bibintoc,title={参考文献}]
+\ifhasreferences
+  \printbibliography[heading=none]
+\fi
+\contestappendix
+\input{sections/09-appendix}
+\end{document}

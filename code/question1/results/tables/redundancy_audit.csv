@@ -1,0 +1,3 @@
+﻿group_a,group_b,n,rho,status,threshold,feature_a,feature_b
+G6,G10,0,,no jointly evaluable group representative,0.9,,
+G1,G9,155,-0.27643276,below threshold; distinct physical groups retained,0.9,station__Tmean24,station__GTmean6

@@ -1,0 +1,12 @@
+{
+  "station_dataset": {
+    "doi": "10.11888/Atmos.tpdc.303600",
+    "url": "https://data.tpdc.ac.cn/zh-hans/data/5b09afd1-d11b-4150-a291-50f0484dddf1",
+    "metadata": "28.86N 85.29E 4140m; UTC+8; QC0 correct,1 suspect,2 wrong,4 filled,8 missing,9 unchecked",
+    "binding_note": "Provider description matched to supplied CSV family; hourly start/end not specified"
+  },
+  "era5_land": "https://confluence.ecmwf.int/spaces/CKB/pages/140385202/ERA5-Land+data+documentation",
+  "era5_arco": "https://confluence.ecmwf.int/spaces/CKB/pages/536218894/ERA5-Land+hourly+Analysis+Ready+Cloud+Optimised+ARCO+data+on+single+levels+from+1950+to+present+Product+User+Guide+PUG",
+  "literature": ["10.3390/atmos13020267", "10.1007/s10346-024-02421-7"],
+  "scope": "Retrospective single-event association evidence, not causal attribution or operational prediction"
+}

@@ -1,0 +1,20 @@
+{
+  "event_local": "2026-08-26 10:30:00",
+  "station_timezone": "Asia/Shanghai",
+  "main_station_label": "start",
+  "main_cutoff_utc": "2026-08-26 02:00:00",
+  "historical_years": [2021, 2022, 2023, 2024, 2025],
+  "matching_half_days": 15,
+  "mean_min_fraction": 0.9,
+  "minimum_valid_folds": 6,
+  "primary_qc": [0],
+  "shortwave_review_lower": -20.0,
+  "flux_sensitivity_abs_H": 1500.0,
+  "flux_sensitivity_abs_LE": 2000.0,
+  "redundancy_pairs": [["G6", "G10"], ["G1", "G9"]],
+  "redundancy_threshold": 0.9,
+  "station_latitude": 28.86,
+  "station_longitude": 85.29,
+  "station_elevation_m": 4140,
+  "random_seed": 20261027
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": {
+    "copied_input_hashes": 46,
+    "candidate_columns": 31,
+    "all_31_event_values_computed": true,
+    "nominal_anchors": 155,
+    "five_unique_evaluable_groups": [
+      "G8",
+      "G1",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "four_ERA5_daily_energy_sums_match_original": true,
+    "era5_coordinate_alignment": "5x6 verified; no artificial coordinate unions",
+    "station_24h_temperature_matches_raw_24_rows": true,
+    "five_figure_export_sets": true,
+    "code_uses_no_absolute_drive_paths": true,
+    "protocol_and_numerical_report": true,
+    "manuscript_pages": 5,
+    "manuscript_text_extractable": true
+  }
+}

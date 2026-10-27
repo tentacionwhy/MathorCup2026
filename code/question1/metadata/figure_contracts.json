@@ -1,0 +1,72 @@
+[
+  {
+    "name": "fig3_1_boundary_layer",
+    "claim": "近地层具有昼夜分层和随时间变化的湍流状态；不代表完整边界层",
+    "archetype": "quantitative grid",
+    "source_data": [
+      "boundary_layer_profiles.csv",
+      "station_process.csv.gz"
+    ],
+    "backend": "Python/matplotlib",
+    "width_mm": 183,
+    "statistics": "empirical historical percentiles / correlated split variability, no causal p-values",
+    "export": "PDF and editable-text SVG, PNG preview",
+    "image_integrity": "no selective pixel manipulation"
+  },
+  {
+    "name": "fig3_2_energy_process",
+    "claim": "本站和源区天气与能量过程随时间变化，绝对值不作同址校验",
+    "archetype": "quantitative grid",
+    "source_data": [
+      "station_process.csv.gz",
+      "source_process.csv.gz"
+    ],
+    "backend": "Python/matplotlib",
+    "width_mm": 183,
+    "statistics": "empirical historical percentiles / correlated split variability, no causal p-values",
+    "export": "PDF and editable-text SVG, PNG preview",
+    "image_integrity": "no selective pixel manipulation"
+  },
+  {
+    "name": "fig3_3_water_process",
+    "claim": "本站与源区降水不同，本站土壤呈独立陆面响应",
+    "archetype": "quantitative grid",
+    "source_data": [
+      "process_observations.csv",
+      "station_process.csv.gz",
+      "source_process.csv.gz"
+    ],
+    "backend": "Python/matplotlib",
+    "width_mm": 183,
+    "statistics": "empirical historical percentiles / correlated split variability, no causal p-values",
+    "export": "PDF and editable-text SVG, PNG preview",
+    "image_integrity": "no selective pixel manipulation"
+  },
+  {
+    "name": "fig3_4_historical_anomalies",
+    "claim": "代表指标中异常强度与持续性不相同，不能都称极端天气",
+    "archetype": "quantitative grid",
+    "source_data": [
+      "historical_envelopes.csv"
+    ],
+    "backend": "Python/matplotlib",
+    "width_mm": 183,
+    "statistics": "empirical historical percentiles / correlated split variability, no causal p-values",
+    "export": "PDF and editable-text SVG, PNG preview",
+    "image_integrity": "no selective pixel manipulation"
+  },
+  {
+    "name": "fig3_5_ranking_stability",
+    "claim": "前五为相对排序，部分因素及湍流可评估性对设置敏感",
+    "archetype": "quantitative grid",
+    "source_data": [
+      "group_rankings.csv",
+      "sensitivity_rankings.csv"
+    ],
+    "backend": "Python/matplotlib",
+    "width_mm": 183,
+    "statistics": "empirical historical percentiles / correlated split variability, no causal p-values",
+    "export": "PDF and editable-text SVG, PNG preview",
+    "image_integrity": "no selective pixel manipulation"
+  }
+]

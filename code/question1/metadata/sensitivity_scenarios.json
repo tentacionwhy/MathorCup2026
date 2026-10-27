@@ -1,0 +1,122 @@
+[
+  {
+    "name": "main"
+  },
+  {
+    "name": "season_7d",
+    "half": 7
+  },
+  {
+    "name": "season_30d",
+    "half": 30
+  },
+  {
+    "name": "cutoff_minus1h",
+    "offset": -1
+  },
+  {
+    "name": "cutoff_minus3h",
+    "offset": -3
+  },
+  {
+    "name": "timestamp_end",
+    "label": "end"
+  },
+  {
+    "name": "QC_0_and_4",
+    "policy": "qc04"
+  },
+  {
+    "name": "QC_0_1_4_9",
+    "policy": "qc0149"
+  },
+  {
+    "name": "coverage80",
+    "coverage": 0.8
+  },
+  {
+    "name": "coverage100",
+    "coverage": 1.0
+  },
+  {
+    "name": "flux_physical_review",
+    "flux_strict": true
+  },
+  {
+    "name": "radiation_no_extra_review",
+    "review": false
+  },
+  {
+    "name": "source_mean4",
+    "selection": "mean4"
+  },
+  {
+    "name": "source_median4",
+    "selection": "median4"
+  },
+  {
+    "name": "station_only",
+    "scope": "station"
+  },
+  {
+    "name": "source_only",
+    "scope": "source"
+  },
+  {
+    "name": "exclude_year_2021",
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "name": "exclude_year_2022",
+    "years": [
+      2021,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  {
+    "name": "exclude_year_2023",
+    "years": [
+      2021,
+      2022,
+      2024,
+      2025
+    ]
+  },
+  {
+    "name": "exclude_year_2024",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2025
+    ]
+  },
+  {
+    "name": "exclude_year_2025",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  {
+    "name": "cell_28.3_85.6",
+    "selection": "28.3,85.6"
+  },
+  {
+    "name": "cell_28.2_85.5",
+    "selection": "28.2,85.5"
+  },
+  {
+    "name": "cell_28.2_85.6",
+    "selection": "28.2,85.6"
+  }
+]

@@ -62,12 +62,16 @@ MathorCup2026/
 
 本目录包含所有模板专用文件及字体，没有对下载目录、父级模板或网络图片的运行时依赖。通用宏包和 XeLaTeX、Biber、latexmk 由完整安装的 TeX Live 提供，不复制整个发行版。
 
-当前正文已按用户提供的八章提纲建立，共36个二级标题；摘要和各小节正文留空，写作要求保存在源码注释中。各节的 `\writingplaceholder` 提供空白写作位置，填写正文后删除对应命令。关键词已填写；队伍编号与B赛道保持不变。
+当前正文按用户提供的八章提纲建立，共36个二级标题；第一问已填入五节计算结果、图表和实际引用，其余章节保留已有写作状态。尚未填写处的 `\writingplaceholder` 提供空白写作位置，填写正文后删除对应命令。关键词已填写；队伍编号与B赛道保持不变。
 
-参考文献标题始终保留，有实际引用后自动输出列表。目前未引用 `references.bib` 中的旧占位条目，故PDF不显示虚构文献。首次正式引用前，应先将占位文献替换为真实条目。旧版图表、公式、引用和代码示例保存在 `examples/previous-template/`，不参与当前正文构建。
+参考文献标题始终保留，现已输出第一问使用的真实研究论文和ECMWF文档。`references.bib` 中既有的旧占位条目仍未被引用，不参与PDF输出；后续新增引用应使用真实条目。旧版图表、公式、引用和代码示例保存在 `examples/previous-template/`，不参与当前正文构建。
 
 ## 格式依据与来源
 
 优先依据 `requirements/` 中本届《论文格式及提交规范》和同届 Word 论文模板。旧 MathorCup 模板的“第 X 页 共 Y 页”页脚、题号字段等已按本届要求调整。
 
 正文风格参考 ElegantLaTeX/ElegantPaper 0.12；赛事字段接口参考本机 MathorcupLatexTemplate 的 `bianhao`、`tihao`、`timu`、`keyword`。融合类独立实现，避免同时加载两套文档类产生冲突。
+
+## 第一问结果已接入
+
+第一问已填写在 `sections/03-factors.tex`，采用已完成方案的五个二级标题。主图保存在 `figures/question1/`，三张表为 `tables/question1/` 中独立可编辑的LaTeX文件；真实文献已加入 `references.bib`。完整复算工程及数据在 `code/question1/`，不依赖原桌面分析目录。移植范围、备份和维护方法见 `writing/第一问移植说明.md`。

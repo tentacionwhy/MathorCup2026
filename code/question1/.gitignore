@@ -1,0 +1,8 @@
+.venv/
+tmp/
+__pycache__/
+*.pyc
+data/raw/era5_land/arco/source_zarr_chunks/
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out

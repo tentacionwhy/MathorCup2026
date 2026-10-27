@@ -1,0 +1,62 @@
+{
+  "copied_files_sha256": 171,
+  "q1_subsections": 5,
+  "main_figures": 5,
+  "editable_tables": 3,
+  "all_references_resolved": true,
+  "overfull_boxes": 0,
+  "total_physical_pages": 12,
+  "cover_and_single_contents_preserved": true,
+  "page_footers": [
+    {
+      "physical_page": 1,
+      "last_text_line": "关键词：冰岩崩；泥石流；多源数据融合；触发临界条件；时空预警；过程模拟"
+    },
+    {
+      "physical_page": 2,
+      "last_text_line": "10"
+    },
+    {
+      "physical_page": 3,
+      "last_text_line": "1"
+    },
+    {
+      "physical_page": 4,
+      "last_text_line": "2"
+    },
+    {
+      "physical_page": 5,
+      "last_text_line": "3"
+    },
+    {
+      "physical_page": 6,
+      "last_text_line": "4"
+    },
+    {
+      "physical_page": 7,
+      "last_text_line": "5"
+    },
+    {
+      "physical_page": 8,
+      "last_text_line": "6"
+    },
+    {
+      "physical_page": 9,
+      "last_text_line": "7"
+    },
+    {
+      "physical_page": 10,
+      "last_text_line": "8"
+    },
+    {
+      "physical_page": 11,
+      "last_text_line": "9"
+    },
+    {
+      "physical_page": 12,
+      "last_text_line": "10"
+    }
+  ],
+  "copied_data_and_code": "code/question1; project-relative; no external data dependency",
+  "qa_preview": "build/question1_review/contact_sheet.png"
+}

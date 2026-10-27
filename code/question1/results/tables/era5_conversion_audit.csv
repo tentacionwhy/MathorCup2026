@@ -1,0 +1,14 @@
+﻿variable,source_missing,processed_missing,conversion
+sp,0,0,instantaneous
+tp,0,0,ARCO_hourly_increment_no_difference
+ssrd,0,0,ARCO_hourly_increment_no_difference
+strd,0,0,ARCO_hourly_increment_no_difference
+skt,0,0,instantaneous
+t2m,0,0,instantaneous
+d2m,0,0,instantaneous
+u10,0,0,instantaneous
+v10,0,0,instantaneous
+ssr,0,180,deaccumulate_then_J_per_hour_to_W
+str,0,180,deaccumulate_then_J_per_hour_to_W
+sshf,1,182,deaccumulate_then_J_per_hour_to_W
+slhf,0,180,deaccumulate_then_J_per_hour_to_W

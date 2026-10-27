@@ -1,0 +1,48 @@
+{
+  "station_rows": 46846,
+  "station_variables": 63,
+  "station_start": "2021-04-23 04:00:00",
+  "station_end": "2026-08-27 01:00:00",
+  "era5_hours": 12528,
+  "era5_variables": 13,
+  "spatial": {
+    "reference_centroid": {
+      "latitude": 28.286945548145006,
+      "longitude": 85.53160997066777
+    },
+    "primary_cell": [
+      28.3,
+      85.5
+    ],
+    "neighbors_2x2": [
+      [
+        28.3,
+        85.5
+      ],
+      [
+        28.3,
+        85.6
+      ],
+      [
+        28.2,
+        85.5
+      ],
+      [
+        28.2,
+        85.6
+      ]
+    ],
+    "station": [
+      28.86,
+      85.29
+    ],
+    "reference_glacier_median_elevation_m": 5297.36083984375,
+    "model_primary_elevation_m": 4167.127489733616,
+    "model_primary_glacier_fraction": 0.07315398348923441,
+    "station_in_download_domain": false,
+    "geometry_role": "provided glacier reference; not verified release polygon"
+  },
+  "main_qc": [
+    0
+  ]
+}

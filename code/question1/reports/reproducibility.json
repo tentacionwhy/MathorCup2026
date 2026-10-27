@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "Three complete numerical CSVs match a previous end-to-end rebuild byte for byte; figure and evidence annotation changes do not change rankings.",
+  "invocation": "run.py invoked with a different current working directory",
+  "tables": [
+    {
+      "path": "results/tables/group_rankings.csv",
+      "expected": "8dc2bb479cd53c6510668ddf9eeb360805dbff682e975debb27588759edd3876",
+      "actual": "8dc2bb479cd53c6510668ddf9eeb360805dbff682e975debb27588759edd3876",
+      "identical": true
+    },
+    {
+      "path": "results/tables/anomaly_evidence.csv",
+      "expected": "02e541168e95b8e9959e3258b507fa599de6f0febc3e724a7434c920ad2a2f09",
+      "actual": "02e541168e95b8e9959e3258b507fa599de6f0febc3e724a7434c920ad2a2f09",
+      "identical": true
+    },
+    {
+      "path": "results/tables/sensitivity_rankings.csv",
+      "expected": "46106a75445b53c5f6fa163708f69b9ee1d4e575204a76f4111acb0eace60c2d",
+      "actual": "46106a75445b53c5f6fa163708f69b9ee1d4e575204a76f4111acb0eace60c2d",
+      "identical": true
+    }
+  ]
+}

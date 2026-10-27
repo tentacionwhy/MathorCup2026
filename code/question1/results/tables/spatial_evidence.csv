@@ -1,0 +1,14 @@
+﻿indicator,group,station_value,source_value,station_percentile,source_percentile,same_direction,historical_rho,historical_pairs,note
+Tmean24,G1,13.7354167,9.41348521,96.1290323,81.9354839,True,0.667194096,155,different sites and supports; no collocated validation
+dT24,G1,0.441666667,-0.265015915,70.3225806,29.6774194,False,0.446958601,155,different sites and supports; no collocated validation
+Rain24,G2,0,5.65721839,27.4193548,11.6129032,True,0.310850487,155,different sites and supports; no collocated validation
+Rain72,G2,0,20.1999783,10,13.5483871,True,0.269169458,155,different sites and supports; no collocated validation
+Rain168,G2,3.8,74.5029531,40.9677419,33.5483871,True,0.284819389,155,different sites and supports; no collocated validation
+RnEnergy24,G3,15.9702947,9.33888237,86.3181313,81.2903226,True,0.478304253,152,different sites and supports; no collocated validation
+RnEnergy72,G3,45.1696168,26.9762042,89.3972727,83.8709677,True,0.630998345,148,different sites and supports; no collocated validation
+LWmean24,G3,-104.083958,-72.7470023,18.7096774,19.3548387,True,0.664435564,155,different sites and supports; no collocated validation
+Hmean24,G4,48.7210867,34.6177314,37.8556377,69.6774194,,0.539241313,103,different sites; station H/LE sign not supplier-verified
+LEmean24,G5,43.4597607,68.2008216,68.5405492,87.0967742,,-0.147157668,103,different sites; station H/LE sign not supplier-verified
+Umean6,G6,0.645,0.603012728,41.879239,67.0967742,False,0.0114275764,149,different sites and supports; no collocated validation
+Umax24,G6,5.334,1.66023934,38.6650008,56.1290323,False,0.229801659,143,different sites and supports; no collocated validation
+RHmean24,G7,60.8666667,89.2618348,19.3548387,13.5483871,True,0.518661983,155,different sites and supports; no collocated validation

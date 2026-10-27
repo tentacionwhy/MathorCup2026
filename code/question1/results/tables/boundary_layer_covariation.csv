@@ -1,0 +1,19 @@
+﻿variable,driver_leads_h,n,spearman_rho,scope
+GT,0,167,-0.713386782,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+GT,3,164,-0.681339827,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+GT,6,161,-0.287688958,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+vector_shear,0,164,0.762262457,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+vector_shear,3,161,0.150612491,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+vector_shear,6,158,-0.230876888,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+USTAR,0,167,0.873568697,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+USTAR,3,163,0.398603976,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+USTAR,6,160,-0.0247070198,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+H,0,167,0.620886454,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+H,3,163,0.729540404,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+H,6,160,0.49866987,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+LE,0,167,0.567617776,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+LE,3,163,0.642761346,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+LE,6,160,0.424762686,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+U10,0,167,0.855501003,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+U10,3,164,0.377132962,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence
+U10,6,161,-0.0697106329,7d descriptive co-variation; autocorrelated and shared diurnal cycle; not ranking or causal evidence

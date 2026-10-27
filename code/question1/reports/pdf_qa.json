@@ -1,0 +1,33 @@
+{
+  "pages": 5,
+  "page_details": [
+    {
+      "page": 1,
+      "characters": 1439,
+      "image_file": "tmp\\pdf_preview\\page_1.png"
+    },
+    {
+      "page": 2,
+      "characters": 999,
+      "image_file": "tmp\\pdf_preview\\page_2.png"
+    },
+    {
+      "page": 3,
+      "characters": 1073,
+      "image_file": "tmp\\pdf_preview\\page_3.png"
+    },
+    {
+      "page": 4,
+      "characters": 1415,
+      "image_file": "tmp\\pdf_preview\\page_4.png"
+    },
+    {
+      "page": 5,
+      "characters": 1600,
+      "image_file": "tmp\\pdf_preview\\page_5.png"
+    }
+  ],
+  "overfull_boxes": 0,
+  "undefined_references": false,
+  "qa_note": "Rendered with Python/PyMuPDF; final image inspection recorded separately"
+}

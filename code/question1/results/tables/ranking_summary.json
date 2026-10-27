@@ -1,0 +1,17 @@
+{
+  "nominal_historical_anchors": 155,
+  "valid_folds": {
+    "ok": 90,
+    "no_common_eligible_feature": 10
+  },
+  "selected_groups": [
+    "G8",
+    "G1",
+    "G5",
+    "G7",
+    "G9"
+  ],
+  "pseudo_comparisons": 620,
+  "pseudo_exceedance": 0.5951612903225807,
+  "pseudo_note": "paired leave-block-out descriptive exceedance; correlated comparisons, not a p-value"
+}
